@@ -1,0 +1,389 @@
+/*Fonts
+font-family: 'Roboto Slab', serif;
+font-family: 'Raleway', sans-serif;
+
+
+*/
+
+/*Colors
+Purple: #A01DC6*/
+
+
+/*Navigation*/
+.navbar-custom{
+	background: none;
+	padding-top: 20px;	
+}
+
+#nav{
+	padding-top: 100px;
+	/*font-family: var(--montserrat);*/
+	font-family: 'Roboto Slab', serif;
+	font-weight: 700;
+	
+}
+
+#logo{
+	/*padding: 10px 10px 0 10px;*/
+	width: 350px !important;
+	height: 175px !important;
+}
+
+#nav a {
+	color: #A01DC6 !important;
+	text-decoration: none;
+	font-size: 18px;
+}
+
+#nav a:link {
+	color: #A01DC6 !important;
+}
+
+#nav a:visited {
+	color: #A01DC6 !important;
+}
+
+#nav a:hover {
+	color: white !important;
+	text-decoration: none;
+	background-color: #A01DC6;
+	font-size: 20px;
+}
+
+#nav a:active {
+	color: #A01DC6;
+}
+
+/*button.navbar-toggle.collapsed{
+	background-color: #A01DC6;
+	}*/
+
+	span.icon-bar{
+		background-color: #A01DC6;
+	}
+	.glyphicon.glyphicon-download-alt{
+		font-size: 17px;
+
+	}
+
+	/*------------------------Navigation End---------------------------------------------------*/
+
+
+	/*About*/
+
+	#about-us{
+		background-color: #A01DC6;
+		/*width: 1300px;*/
+	}
+
+	.about-header{
+		font-family: 'Roboto Slab', serif;
+		font-weight: 600;
+		color: white;
+	}
+
+	.about-text{
+		color: white;
+		font-weight: 400;
+		font-size: 18px;
+		padding-top: 25px;
+		/*font-family: 'Calligraffitti', cursive;*/
+		font-family: 'Raleway', sans-serif;
+	}
+
+	.headshot{
+		padding: 6px;
+		width: 230px;
+		height: 280px;
+		float: right;
+	}
+
+/*	#about-us{
+		border: 4px solid;
+		color:  #A01DC6;		
+	}
+	*/
+
+	.list{
+		/*color: #A01DC6;*/
+		color: #A01DC6;
+		font-weight: 600;
+		font-size: 14px;
+		font-family: 'Raleway', sans-serif;
+	}
+
+	.list-group-item{
+		border: solid 2px !important;
+		border-color: #A01DC6 !important;
+	}
+
+
+
+	.hours{
+		color: #A01DC6;
+		font-size: 18px;
+		font-family: 'Raleway', sans-serif;
+		font-weight: 600;
+		padding-right: 260px !important ;
+		padding-bottom: 20px;
+	}
+
+	a.telephoneTop{
+		color: #A01DC6;
+		font-weight: 600;
+		font-size: 16px;
+		font-family: 'Raleway', sans-serif;
+		padding-left: 75px !important ;
+		padding-bottom: 5px;
+		padding-top: 80px !important ;
+
+
+	}
+	a.telephoneTop:hover{
+		color: #A01DC6;
+		font-weight: 600;
+		font-size: 18px;
+		font-family: 'Raleway', sans-serif;		
+		text-decoration: none;
+	}
+
+	/*About End*/
+
+
+	/*Pricing*/
+
+	.fa.fa-tag.fa.fa-3x{
+		color: #7AFF7A;
+	}
+	#Fees{
+		padding-bottom: 50px;
+		padding-top: 40px;
+	}
+
+	.heading{
+		font-family: 'Roboto Slab', serif;
+		color: #A01DC6;
+		font-weight: 600;
+
+	}
+
+	.Fees-text{
+		color: #A01DC6;
+		font-family: 'Raleway', sans-serif;
+		font-weight: 600;
+
+	}
+
+	hr.feeHr{
+		border-color: #A01DC6;
+	}
+
+	/*Pricing End*/
+
+
+	/*Requirements */
+
+	.requirments-header{
+		font-family: 'Roboto Slab', serif;
+		color: #A01DC6;
+		font-weight: 600;
+	}
+
+	.list2{
+		/*color: #A01DC6;*/
+		color: white;
+		background-color: #A01DC6 !important;
+		font-weight: 600;
+		font-size: 14px;
+		font-family: 'Raleway', sans-serif;
+	}
+
+	/*Requirements End*/
+
+
+
+	/*Contact*/
+
+	button.btn.btn-xl{
+		background-color: white !important;
+		color: #A01DC6;
+		font-weight: 600;
+		margin-bottom: 10px;
+	}
+
+	#contact {
+		background-color: #A01DC6;
+		/*width: 80%;*/
+
+
+	}
+	#contact .section-heading {
+		color: white;
+	}
+	#contact .form-group {
+		margin-bottom: 15px;
+	}
+	#contact .form-group input,
+	#contact .form-group textarea {
+		padding: 10px;
+	}
+	#contact .form-group input.form-control {
+		height: auto;
+	}
+	#contact .form-group textarea.form-control {
+		height: 236px;
+	}
+	#contact .form-control:focus {
+		border-color: #fed136;
+		box-shadow: none;
+	}
+	#contact ::-webkit-input-placeholder {
+		font-family: 'Raleway', sans-serif;
+		text-transform: uppercase;
+		font-weight: 700;
+		color: purple;
+	}
+	#contact :-moz-placeholder {
+		/* Firefox 18- */
+		font-family: 'Raleway', sans-serif;
+		text-transform: uppercase;
+		font-weight: 700;
+		color: #eeeeee;
+	}
+	#contact ::-moz-placeholder {
+		/* Firefox 19+ */
+		font-family: 'Raleway', sans-serif;
+		text-transform: uppercase;
+		font-weight: 700;
+		color: #eeeeee;
+	}
+	#contact :-ms-input-placeholder {
+		font-family: 'Raleway', sans-serif;
+		text-transform: uppercase;
+		font-weight: 700;
+		color: #eeeeee;
+	}
+	#contact .text-danger {
+		color: #e74c3c;
+	}
+
+	/*Contact End*/
+
+	/*Footer*/
+
+	.copy{
+		font-family: 'Roboto Slab', serif;
+		color: #A01DC6;
+		font-size: 14px;
+	}
+
+	.copyPromo{
+		font-family: 'Roboto Slab', serif;
+		color: darkgrey;
+		font-size: 12px;
+		text-decoration: underline;
+	}
+
+	a.promo{
+		color: darkgrey;
+	}
+
+	.address{
+		color: #A01DC6;
+
+	}
+	#map{
+		width: 500px;
+		/*width: 100%;*/
+		height: 405px;
+		/*padding-right: 150px;*/
+
+	}
+
+	.info-window{
+		color: #A01DC6;
+		font-family: 'Robot Slab', serif;
+	}
+
+	.fa.fa-phone{	
+		font-size: 17px;
+	}
+	.phoneHeader{
+		font-size: 18px;
+		color: #A01DC6;
+		font-family: 'Robot Slab', serif;
+		font-weight: 600;
+		padding-right: 25px;
+	}
+
+	/*Footer End*/
+
+	/*Media Queries*/
+	@media only screen and (max-width: 500px) {
+		#map{
+			width: 270px;
+			/*width: 100%;*/
+			height: 305px;
+			/*padding-right: 150px;*/
+
+		}
+
+		.about-text{
+			color: white;
+			font-weight: 400;
+			font-size: 14px;
+			padding-top: 25px;
+			/*font-family: 'Calligraffitti', cursive;*/
+			font-family: 'Raleway', sans-serif;
+		}
+
+		.headshot{
+			padding: 10px;
+			width: 220px;
+			height: 270px;
+			float: right;
+		}
+
+
+
+		.hours{
+			color: #A01DC6;
+			font-size: 12px;
+			font-family: 'Raleway', sans-serif;
+			font-weight: 400;
+
+		}
+
+		a.telephoneTop{
+			color: #A01DC6;
+			font-weight: 400;
+			font-size: 14px;
+			font-family: 'Raleway', sans-serif;
+			padding-left: 25px !important ;
+			text-align: left !important;
+
+		}
+		a.telephoneTop:hover{
+			color: #A01DC6;
+			font-weight: 400;
+			font-size: 10px;
+			font-family: 'Raleway', sans-serif;
+			/*padding-left: 375px !important ;*/
+			text-decoration: none;
+			text-align: left !important;
+		}
+
+/*
+		#contact {
+			background-color: #A01DC6;
+			width: 50%;
+		}
+		#about-us{
+			background-color: #A01DC6;
+			width: 50%;
+
+		}
+		*/
+
+
+	}
